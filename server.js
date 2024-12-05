@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 // Socket.IO Integration
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Replace with your frontend URL
+    origin: "https://silly-centaur-83540c.netlify.app/", // Replace with your frontend URL
     methods: ["GET", "POST"],
   },
 });
